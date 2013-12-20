@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<document>
+
+  <properties>
+    <title>Home</title>
+  </properties>
+
+<body>
+  <section name="PKI News">
+
+<table class="promotion"><!--AC table for twitterwidget and Note area-->
+
+<tr>
+<td valign="top"><!--TWITTER WIDGET-->
+<div class="frame note" id="twitter" style="border:0;">
+<a class="twitter-timeline" width="260" height="275" data-dnt="true" href="https://twitter.com/primekeyPKI" data-widget-id="344774465936306176">Tweets by @primekeyPKI</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+</div>
+</td>
+
+<td valign="top" id="news">
+<div class="frame">
+<div class="label"><a style="color:white; padding:1em;" href="http://www.primekey.se/Services/Training/" target="pk">EJBCA PKI Training</a>
+<a style="color:white; padding:1em;" href="http://www.primekey.se/Services/Support/" target="pk">Enterprise Support</a>
+<a style="color:white; padding:1em;" href="http://www.primekey.se/Company/Register+to+Receive/Gov+eID+%26+ePassports/" target="pk">Free eID &amp; ePassport booklet</a>
+</div>
+<div class="content">
+<!-- 
+<a href="https://ae.rsaconference.com/US13/portal/newreg.ww" target="rsa"><img src="./images/RSAC-2013_623px.png" alt="Visit PrimeKey at RSA 2013. Free Expo Pass Code." class="banner"/></a>
+    <hr/>
+ -->    
+  <p><strong>EJBCA 4.0.16 is now out!</strong>
+  <br />Visit the <a href="download.html">download</a> section. There is also a LiveCD!
+  <br />
+  <span class="date"> Date: 2013-06-28</span>  
+  </p>  
+  <p>
+  <strong>Extended CMP User Guide!</strong><br/>The EJBCA CMP 3GPP user guide has been updated with fully interoperability tested 3GPP feature support. Order it at the <a href="http://www.primekey.se/PKI+shop/">Prime PKI Shop!</a>
+  <br />
+  <span class="date"> Date: 2013-05-05</span>
+  </p>
+
+  <p><strong>Certified PKI for Customers!</strong><br />
+  5.0 is a Common Criteria EAL4+, and CWA certified EJBCA version. EJBCA 5.0 is available exclusively from <a href="http://www.primekey.se/PKI+shop/">PrimeKey Solutions AB</a>.
+  <br />
+  </p>
+   <p>
+  <a href="http://blog.ejbca.org/2012/05/ejbca-will-always-be-open-source.html">EJBCA remains Open Source, but needs employed developers to remain top notch PKI software...</a>
+  <br /><a href="http://blog.ejbca.org/2012/05/new-features-in-ejbca-5.html">EJBCA Enterprise vs Community Features...</a>
+  <br /><a href="http://blog.ejbca.org">Read more News from the EJBCA Blog...</a>
+  </p>
+
+</div>
+</div>
+</td>
+</tr>
+</table>
+
+  </section>
+
+<section name="EJBCA Enterprise PKI CA">
+<p>
+EJBCA is an enterprise class PKI Certificate Authority software, built using Java (JEE) technology. 
+It is a robust, high performance, platform independent, flexible, and component based CA to be used 
+stand-alone or integrated in other JEE applications.
+</p>
+<p>
+An enterprise class PKI CA, EJBCA can be used to build a complete PKI infrastructure for your organization.
+If you only want to issue a few single certificates for testing, there are probably options that will get you started quicker, 
+but if you want a serious PKI CA we recommend EJBCA.
+</p>
+<p><strong>EJBCA has everything for your trust center. Contact us for more info.</strong>
+</p>
+<p>
+You can use EJBCA to issue certificates for different purposes such as:
+<ul>
+<li>Strong authentication for users accessing your intranet/extranet/internet resources.</li>
+<li>Secure communication with SSL/TLS servers and SSL/TLS clients. EJBCA is an excellent SSL PKI.</li>
+<li><a href="howto.html#Microsoft smart card logon">Smart card logon</a> to Windows and/or Linux.</li>
+<li>Signing and encrypting email (SMIME).</li>
+<li>VPN connections by issuing certificates to your VPN routers such as OpenVPN, Cisco, Juniper etc.</li>
+<li>Client VPN access with certificates in users VPN clients.</li>
+<li>Single sign-on by using a single certificate to secure logon to web applications.</li>
+<li>Creating signed documents.</li>
+<li>Mobile PKI, <a href="adminguide.html#iPhone/iOS">enrolling iOS</a> etc.</li>
+<li>Secure mobile networks, i.e. <a href="http://www.3gpp.org/">3GPP</a>/LTE/4G using the <a href="adminguide.html#CMP">CMP protocol</a>.</li>
+<li>Counterfeit prevention by signing and pairing accessories.</li>
+<li>Issue citizen certificates for access to government resources, used in passports etc.</li>
+<li>Create CVCAs and DVs and issue CV certificates (CVC) to Document Verifiers and Inspection Systems for <a href="cvccas.html">EU EAC ePassports</a>.</li>
+<li>... and many many more ...</li>
+</ul>
+</p>
+<p>
+You can also use EJBCA to set up a CA independent, high performance, highly available OCSP responder service.
+</p>
+<p>Together with sister projects (see <i><a href="complementary.html">Complementary software</a></i>) of EJBCA you can also:
+<ul>
+<li>Get central trusted <a href="http://signserver.org">Time Stamps</a> for you electronically signed documents.</li>
+<li>Perform <a href="http://signserver.org">central signing of documents</a>.</li>
+<li>Sign electronic passport data (MRTD).</li>
+<li>Issue hard tokens (<a href="complementary.html#Hardware%20tokens">smart cards</a>) and manage the complete life cycle of cards and certificates.</li>
+<li>... and many many more ...</li>
+</ul>
+</p>
+</section>
+<section name="Open Source PKI">
+<p>
+This PKI software is OSI Certified Open Source Software.
+OSI Certified is a certification mark of the Open Source Initiative.
+</p>
+<p>
+The source code of EJBCA is hosted on a (mostly) public <a href="https://svn.cesecore.eu/svn/ejbca/branches/">svn</a> and all downloads include the complete source code can be downloaded from <a href="http://www.sf.net/">Sourceforge.net</a>.
+<br></br>
+If you want to contribute to EJBCA, please see <i><a href="donations.html">Contribute to EJBCA</a></i>
+</p>
+</section>
+
+<section name="Support and development">
+<p>Commercial support, development, integration and maintenance for EJBCA is available through <a href="http://www.primekey.se/">PrimeKey Solutions</a>. 
+</p>
+</section>
+
+</body>
+</document>
+
